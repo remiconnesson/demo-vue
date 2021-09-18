@@ -1,0 +1,14 @@
+<html>
+<head>
+<title>Rocking VUE</title>
+<script src="https://unpkg.com/vue@next"></script>
+</head>
+<body>
+<div id="app">
+	<h1>Hello, {{title}}</h1>
+	<p>{{value}}</p>
+	<button v-on:click="ajouter(1)">Ajouter 1</button>
+	<button @click='ajouter(-1)'>Déduire 1</button> </div>
+<script src="static/app.js"></script>
+</body>
+</html>
